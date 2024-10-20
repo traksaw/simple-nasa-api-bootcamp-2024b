@@ -8,7 +8,7 @@ function makeAPhoto() {
     let date = document.querySelector('input').value
     console.log(date)
 
-    const url = `https://api.nasa.gov/planetary/apod?api_key=n8GIEHjrVBTVMMYcxzJKvAz8gZfOFrHZb9opGo1n&date=${date}`
+    const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${date}`
 
     fetch(url)
         .then(res => res.json()) // parse response as JSON 
