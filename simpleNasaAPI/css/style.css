@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  background-image: url(../img/background.jpg);
+}
+
+.introSection,
+.inputSection {
+  text-align: center;
+}
+.introSection > h1 {
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+.inputSection,
+input,
+button {
+  font-family: "Source Code Pro", monospace;
+  color: white;
+} 
+input,
+button {
+  color: black;
+}
+
+img,
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
